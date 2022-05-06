@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+
+    <title>Accueil - Kévin Combar</title>
+    <meta name="Content-Type" content="UTF-8">
+    <meta name="Content-Language" content="fr">
+    <meta name="Description" content="Kévin Combar, Développeur Web, je suis à votre disposition pour répondre à tout type de projets de création ou de refonte de sites internet vitrine, référencement">
+    <meta name="Keywords" content="kevin, combar, kevin combar, dev, développement, français, freelance, web, site, internet, création, html, css, php, swift, application, mobile, ios, metz, hagondange, talange, thionville, montigny, ennery, referencement, refonte, front-end, back-end, front, frontend, back, backend">
+    <meta name="Subject" content="Développeur Web">
+    <meta name="Author" content="Kévin Combar">
+</head>
+<body data-theme="light">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index"><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="rgb(19,87,118)" class="bi bi-braces-asterisk" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C2.25 2 1.49 2.759 1.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6ZM14.886 7.9v.164c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456v-1.3c-1.114 0-1.49-.362-1.49-1.456V4.352C14.51 2.759 13.75 2 12.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6ZM7.5 11.5V9.207l-1.621 1.621-.707-.707L6.792 8.5H4.5v-1h2.293L5.172 5.879l.707-.707L7.5 6.792V4.5h1v2.293l1.621-1.621.707.707L9.208 7.5H11.5v1H9.207l1.621 1.621-.707.707L8.5 9.208V11.5h-1Z"/>
+            </svg></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="./index">Accueil</a>
+              <a class="nav-link" href="./about">A propos</a>
+              <a class="nav-link" href="./work">Portfolio</a>
+              <a class="nav-link" href="./contact">Contact</a>
+            </div>
+          </div>
+          <!--
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch">
+                    <input type="checkbox">
+                </label>
+            </div>
+          <button id="connect" type="button" class="btn btn-outline-secondary" onclick="location.href = './connect';">Connexion</button>
+            -->
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <section>
+        <div class="container-fluid">
+            <div class="row row-custom">
+                <div class="col col-xl-4 d-flex flex-row align-items-center justify-content-center">
+                    <img class="photo" src="./img/photo.png" alt="Photo">
+                </div>
+                <div class="d-flex col-8 flex-row align-items-center">
+                    <h1>
+                        <b>Kévin Combar</b><span class="font-light">, développeur web full-stack & mobile iOS.</span><br/>
+                        <span class="font-light">Je vous souhaite la</span> <strong>bienvenue</strong><span class="font-light">.</span>
+                    </h1>
+                </div>
+            </div>
+            <div class="home-button d-none d-xl-flex">
+                <button type="button" class="btn btn-outline-secondary" onclick="location.href = './about';">A propos de moi</button>
+                <button type="button" class="btn btn-outline-secondary" onclick="location.href = './work';">Découvrir mon travail</button>
+            </div>
+            <div id="laptop-icon" class="d-none d-xl-block">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="64" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
+                    <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z"/>
+                </svg>
+            </div>
+            <div id="inside-laptop-icon" class="d-none d-xl-block">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+                    <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+                </svg>
+            </div>
+            <div id="plus-icon" class="d-none d-xl-block">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="64" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                </svg>
+            </div>
+            <div id="cup-icon" class="d-none d-xl-block">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="64" fill="currentColor" class="bi bi-cup-straw" viewBox="0 0 16 16">
+                    <path d="M13.902.334a.5.5 0 0 1-.28.65l-2.254.902-.4 1.927c.376.095.715.215.972.367.228.135.56.396.56.82 0 .046-.004.09-.011.132l-.962 9.068a1.28 1.28 0 0 1-.524.93c-.488.34-1.494.87-3.01.87-1.516 0-2.522-.53-3.01-.87a1.28 1.28 0 0 1-.524-.93L3.51 5.132A.78.78 0 0 1 3.5 5c0-.424.332-.685.56-.82.262-.154.607-.276.99-.372C5.824 3.614 6.867 3.5 8 3.5c.712 0 1.389.045 1.985.127l.464-2.215a.5.5 0 0 1 .303-.356l2.5-1a.5.5 0 0 1 .65.278zM9.768 4.607A13.991 13.991 0 0 0 8 4.5c-1.076 0-2.033.11-2.707.278A3.284 3.284 0 0 0 4.645 5c.146.073.362.15.648.222C5.967 5.39 6.924 5.5 8 5.5c.571 0 1.109-.03 1.588-.085l.18-.808zm.292 1.756C9.445 6.45 8.742 6.5 8 6.5c-1.133 0-2.176-.114-2.95-.308a5.514 5.514 0 0 1-.435-.127l.838 8.03c.013.121.06.186.102.215.357.249 1.168.69 2.438.69 1.27 0 2.081-.441 2.438-.69.042-.029.09-.094.102-.215l.852-8.03a5.517 5.517 0 0 1-.435.127 8.88 8.88 0 0 1-.89.17zM4.467 4.884s.003.002.005.006l-.005-.006zm7.066 0-.005.006c.002-.004.005-.006.005-.006zM11.354 5a3.174 3.174 0 0 0-.604-.21l-.099.445.055-.013c.286-.072.502-.149.648-.222z"/>
+                </svg>
+            </div>
+            <div id="cloud-icon1" class="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cloud-fill" viewBox="0 0 16 16">
+                    <path d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383z"/>
+                </svg>
+            </div>
+            <div id="cloud-icon2" class="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="64" fill="currentColor" class="bi bi-cloud-fill" viewBox="0 0 16 16">
+                    <path d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383z"/>
+                </svg>
+            </div>
+            <div id="cloud-icon3" class="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-cloud-fill" viewBox="0 0 16 16">
+                    <path d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383z"/>
+                </svg>
+            </div>
+            <div id="cloud-icon4" class="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="94" height="94" fill="currentColor" class="bi bi-cloud-fill" viewBox="0 0 16 16">
+                    <path d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383z"/>
+                </svg>
+            </div>
+        </div>
+
+
+        <div style="margin-top: 50px;">
+            <h3 class="devSubTitle text">Pourquoi me choisir ?</h3>
+        </div>
+
+
+        <div class="row d-flex justify-content-evenly">
+            <div class="col col-lg-3 box">
+                <div class="icon">
+                    <h2>Qualité</h2>
+                    <div id="palet-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-palette-fill" viewBox="0 0 16 16">
+                            <path d="M12.433 10.07C14.133 10.585 16 11.15 16 8a8 8 0 1 0-8 8c1.996 0 1.826-1.504 1.649-3.08-.124-1.101-.252-2.237.351-2.92.465-.527 1.42-.237 2.433.07zM8 5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm4.5 3a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zM5 6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm.5 6.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                        </svg>
+                    </div>
+                </div>
+                <p>Je crée des contenus <b>originaux</b>, <b>complets</b> et <b>détaillés</b> répondant à la demande des clients.<br></br>Je prends soin de réaliser des <b>interfaces élégantes</b>, de promouvoir une expérience utilisatrice <b>simple</b> et <b>intuitive</b> tout en proposant une architecture et une <b>qualité</b> de code <b>compréhensible</b> et <b>respectueux</b> des normes en vigueur.</p>
+            </div>
+            <div class="col col-lg-3 box">
+                <div class="icon">
+                    <h2>Personnalisé</h2>
+                    <div id="palet-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-brush-fill" viewBox="0 0 16 16">
+                            <path d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.067 6.067 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.118 8.118 0 0 1-3.078.132 3.659 3.659 0 0 1-.562-.135 1.382 1.382 0 0 1-.466-.247.714.714 0 0 1-.204-.288.622.622 0 0 1 .004-.443c.095-.245.316-.38.461-.452.394-.197.625-.453.867-.826.095-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.201-.925 1.746-.896.126.007.243.025.348.048.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.176-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04z"/>
+                        </svg>
+                    </div>
+                </div>
+                <p>Chaque demande est <b>particulière</b>. C'est pour cela que je l'étudie <b>avec attention</b> afin de confectionner votre projet <b>sur-mesure</b> en utilisant les <b>technologies</b> et <b>outils de développement</b> les plus <b>adaptés</b>.<br><br>Fournir un site web avec un niveau de rigueur <b>très élevé</b> est une <b>priorité</b> pour moi et me <b>différencie des autres</b>.</p>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-evenly">
+            <div class="col col-xl-3 box">
+                <div class="icon">
+                    <h2>Satisfaction</h2>
+                    <div id="check-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                            <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                        </svg>
+                    </div>
+                </div>
+                <p>Je suis très attaché au principe de <b>satisfaction</b>, alors c'est pour cela que je <b>garde contact</b> avec vous tout au long du processus de création de votre site web pour être sûr qu'il correspond <b>totalement</b> à vos attentes !<br><br>Le client est <b>roi</b> après-tout.</p>
+            </div>
+        </div>
+
+
+        <div class="container-fluid">
+            <div class="row project">
+                <div class="col">
+                    <h2 class="d-flex flex-row justify-content-center projectTitle">Vous avez besoin d'un développeur pour créer ou mettre à jour votre site ?</h2>
+                    <div class="d-flex flex-row justify-content-center">
+                        <p id="textproject">Discutons-en et établissons un cahier des charges en fonction de vos besoins.</p>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center">
+                        <button type="button" class="btn btn-outline-secondary" onclick="location.href = './rdv';">Prendre rendez-vous</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="d-flex justify-content-center">
+            <div class="software-box text-center">
+                <h2 class="dev">Mes services</h2>
+                <div class="soft">
+                    <span class="software">Développement Front-end</span>
+                    <span class="software">Développement Back-end</span>
+                    <span class="software">Référencement SEO</span>
+                    <span class="software">Responsive Design</span>
+                </div>
+                <div class="img d-none d-xl-flex justify-content-center">
+                    <img src="./img/dev.png" alt="Image Developpement" width="800" height="450">
+                </div>
+            </div>
+        </div>
+
+        <!--
+        <div style="margin-bottom: 50px;">
+            <h3 class="devSubTitle text">Je programme avec les langages</h3>
+            <div class="soft">
+                <img alt="HTML5" width="128px" src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" style="padding-right:10px;" />
+                <img alt="CSS3" width="128px" src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg" style="padding-right:10px;" />
+                <img alt="JavaScript" width="128px" src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg" style="padding-right:10px;" />
+                <img alt="PHP" width="128px" src="https://www.vectorlogo.zone/logos/php/php-ar21.svg" style="padding-right:10px;" />
+                <img alt="Swift" width="128px" src="https://www.vectorlogo.zone/logos/swift/swift-ar21.svg" style="padding-right:10px;" />
+            </div>
+
+            <h3 class="devSubTitle text techno">Je maîtrise les technologies et frameworks</h3>
+            <div class="soft">
+                <img alt="MySQL" width="128px" src="https://www.vectorlogo.zone/logos/mysql/mysql-ar21.svg" style="padding-right:10px;" />
+                <img alt="Symfony" width="128px" src="https://www.vectorlogo.zone/logos/symfony/symfony-ar21.svg" style="padding-right:10px;" />
+                <img alt="React" width="128px" src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg" style="padding-right:10px;" />
+                <img alt="Wordpress" width="128px" src="https://www.vectorlogo.zone/logos/wordpress/wordpress-ar21.svg" style="padding-right:10px;" />
+                <img alt="Bootstrap" width="128px" src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-ar21.svg" style="padding-right:10px;" />
+                <img alt="TailwindCSS" width="128px" src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-ar21.svg" style="padding-right:10px;" />
+            </div>
+
+            <h3 class="devSubTitle text techno">Je manie les logiciels et outils</h3>
+            <div class="soft">
+                <img alt="Visual Studio Code" width="128px" src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-ar21.svg" style="padding-right:10px;" />
+                <img alt="WebStorm" width="128px" src="https://cdn.worldvectorlogo.com/logos/webstorm-2.svg" style="padding-right:10px;" />
+                <img alt="PhpStorm" width="128px" src="https://cdn.worldvectorlogo.com/logos/phpstorm.svg" style="padding-right:10px;" />
+                <img alt="Xcode" width="128px" src="https://www.vectorlogo.zone/logos/apple_xcode/apple_xcode-ar21.svg" style="padding-right:10px;" />
+                <img alt="Github" width="128px" src="https://www.vectorlogo.zone/logos/github/github-ar21.svg" style="padding-right:10px;" />
+                <img alt="GitKraken" width="128px" src="https://www.vectorlogo.zone/logos/gitkraken/gitkraken-ar21.svg" style="padding-right:10px;" />
+            </div>
+        </div>
+    </section>
+    -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row footer">
+                <div class="d-flex justify-content-center">
+                    <div class="col-2">
+                        <ul class="list-unstyled text-center">
+                            <li><i class="bi bi-geo-alt-fill"></i> HAGONDANGE</li>
+                            <li><a class="link-footer" href="mailto:contact@kevin-combar.fr">contact@kevin-combar.fr</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 text-center copyright">
+                        SIREN: 911 337 228<br>
+                        © Copyright 2022, Kévin Combar
+                    </div>
+                    <div class="col-2">
+                        <ul class="list-unstyled text-center">
+                            <li><a class="link-footer" href="./legal">Mentions légales</a></li>
+                            <li><a class="link-footer" href="https://www.linkedin.com/in/kevin-combar/"><i class="bi bi-linkedin"></i></a> <a class="link-footer" href="https://twitter.com/kevincombar"><i class="bi bi-twitter"></i></a> <a class="link-footer" href="https://www.instagram.com/kevincombar/"><i class="bi bi-instagram"></i></a> <a class="link-footer" href="https://github.com/kevincombar"><i class="bi bi-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Custom JS -->
+    <script src="./js/scripts.js"></script> 
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Bootstrap CDN JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/cv.css">
+
+    <title>CV - Kévin Combar</title>
+    <meta name="Content-Type" content="UTF-8">
+    <meta name="Content-Language" content="fr">
+    <meta name="Description" content="Développeur Web, je suis à votre disposition pour répondre à tout type de projets de création ou de refonte de sites internet vitrine, référencement">
+    <meta name="Keywords" content="kevin, combar, kevin combar, dev, développement, français, freelance, web, site, internet, création, html, css, php, swift, application, mobile, ios, metz, hagondange, talange, thionville, montigny, ennery, referencement, refonte, front-end, back-end, front, frontend, back, backend">
+    <meta name="Subject" content="Développeur Web">
+    <meta name="Author" content="Kévin Combar">
+</head>
+<body data-theme="light">    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index"><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="rgb(19,87,118)" class="bi bi-braces-asterisk" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C2.25 2 1.49 2.759 1.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6ZM14.886 7.9v.164c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456v-1.3c-1.114 0-1.49-.362-1.49-1.456V4.352C14.51 2.759 13.75 2 12.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6ZM7.5 11.5V9.207l-1.621 1.621-.707-.707L6.792 8.5H4.5v-1h2.293L5.172 5.879l.707-.707L7.5 6.792V4.5h1v2.293l1.621-1.621.707.707L9.208 7.5H11.5v1H9.207l1.621 1.621-.707.707L8.5 9.208V11.5h-1Z"/>
+            </svg></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="./index">Accueil</a>
+              <a class="nav-link" href="./about">A propos</a>
+              <a class="nav-link" href="./work">Portfolio</a>
+              <a class="nav-link" href="./contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Content -->
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4 sidebar d-none d-lg-block">
+                    <img class="photocv mt-5" src="./img/photo.png" alt="Photo" width="150px">
+                    <h1 class="mt-3">Kévin Combar</h1>
+                    <h2>Développeur web full-stack</h2>
+                    <hr class="mt-4 mb-4">
+                    <h2 class="cvtitle">Me contacter</h2>
+                    <div class="d-flex flex-wrap">
+                        <button type="button" class="btn btn-outline-secondary" onclick="location.href = './contact';">Par e-mail</button>
+                        <button type="button" class="btn btn-outline-secondary" onclick="location.href = './rdv';">Prendre rdv</button>
+                    </div>
+                    <hr class="mt-4 mb-4">
+                    <h2 class="cvtitle">Réseaux</h2>
+                    <div class="reseauxdiv">
+                        <div class="d-flex flex-wrap mt-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                            </svg>
+                            <a href="https://www.instagram.com/kevincombar/" target="_blank">kevincombar</a>
+                        </div>
+                        <div class="d-flex flex-wrap mt-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                            </svg>
+                            <a href="https://twitter.com/kevincombar" target="_blank">kevincombar</a>
+                        </div>
+                        <div class="d-flex flex-wrap mt-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                            </svg>
+                            <a href="https://www.linkedin.com/in/kevin-combar/" target="_blank">kevin-combar</a>
+                        </div>
+                        <div class="d-flex flex-wrap mt-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                            </svg>
+                            <a href="https://github.com/kevincombar" target="_blank">kevincombar</a>
+                        </div>
+                    </div>
+                    <hr class="mt-4 mb-4">
+                    <h2 class="cvtitle">Langues</h2>
+                    <div class="reseauxdiv mb-5">
+                        <div class="d-flex flex-wrap mt-3">
+                            <img src="./img/fr-flag.png" alt="Francais" width="16px">
+                            <a>Courant</a>
+                        </div>
+                        <div class="d-flex flex-wrap mt-3">
+                            <img src="./img/us-flag.png" alt="Francais" width="16px">
+                            <a>Niveau A2</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 col-lg-9 m-4">
+                    <div>
+                        <h2 class="title">Dîplomes</h2>
+                        <div class="row d-flex flex-wrap">
+                            <div class="col boxcv">
+                                <div class="d-flex justify-content-between">
+                                    <span>Baccalauréat Professionnel Système Numérique (RISC)</span>
+                                    <span>2020</span>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <span class="localisationName">Lycée Polyvalent Louis de Cormontaigne</span>
+                                    <span class="localisation"><i class="bi bi-geo-alt-fill"></i> Metz, FRANCE</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-flex flex-wrap">
+                            <div class="col boxcv">
+                                <div class="d-flex justify-content-between">
+                                    <span>Brevet d'Études Professionnel</span>
+                                    <span>2019</span>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <span class="localisationName">Lycée Polyvalent Louis de Cormontaigne</span>
+                                    <span class="localisation"><i class="bi bi-geo-alt-fill"></i> Metz, FRANCE</span>
+                                </div>
+                            </div>
+                            <div class="col boxcv">
+                                <div class="d-flex justify-content-between">
+                                    <span>Brevet des Collèges</span>
+                                    <span>2017</span>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <span class="localisationName">Ensemble Scolaire Jean XXIII</span>
+                                    <span class="localisation"><i class="bi bi-geo-alt-fill"></i> Montigny-Lès-Metz, FRANCE</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-5 justify-content-evenly">
+                        <h2 class="title">Certifications</h2>
+                        <div class="row d-flex flex-wrap">
+                            <div class="col boxcv">
+                                <div class="d-flex justify-content-between">
+                                    <span>Suivi des cours du MOOC de l'ANSII</span>
+                                    <span>2022</span>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <span class="localisationName">SecNumacadémie</span>
+                                    <span class="localisation"><i class="bi bi-geo-alt-fill"></i> FRANCE</span>
+                                </div>
+                            </div>
+                            <div class="col boxcv">
+                                <div class="d-flex justify-content-between">
+                                    <span>Fondamentaux du marketing numérique</span>
+                                    <span>2022</span>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <span class="localisationName">Google Ateliers Numériques</span>
+                                    <span class="localisation"><i class="bi bi-geo-alt-fill"></i> FRANCE</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col boxcv">
+                                <div class="d-flex justify-content-between">
+                                    <span>PIX</span>
+                                    <span>2021</span>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <span class="localisationName">République Française</span>
+                                    <span class="localisation"><i class="bi bi-geo-alt-fill"></i> FRANCE</span>
+                                </div>
+                            </div>
+                            <div class="col boxcv">
+                                <div class="d-flex justify-content-between">
+                                    <span>Cybersecurity Essentials</span>
+                                    <span>2021</span>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <span class="localisationName">Cisco Networking Academy</span>
+                                    <span class="localisation"><i class="bi bi-geo-alt-fill"></i> FRANCE</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col boxcv">
+                                <div class="d-flex justify-content-between">
+                                    <span>Introduction to Cybersecurity</span>
+                                    <span>2021</span>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <span class="localisationName">Cisco Networking Academy</span>
+                                    <span class="localisation"><i class="bi bi-geo-alt-fill"></i> FRANCE</span>
+                                </div>
+                            </div>
+                            <div class="col boxcv">
+                                <div class="d-flex justify-content-between">
+                                    <span>Sauveteur Secouriste du Travail</span>
+                                    <span>2019</span>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <span class="localisationName">Lycée Polyvalent Louis de Cormontaigne</span>
+                                    <span class="localisation"><i class="bi bi-geo-alt-fill"></i> Metz, FRANCE</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-5">
+                        <h2 class="title">Formations</h2>
+                        <div class="boxcv">
+                            <div class="d-flex justify-content-between">
+                                <span>Graduate Développeur web & mobile iOS</span>
+                                <div class="d-flex justify-content-end">
+                                    <span class="inprogress">En cours depuis Janv. 2022</span>
+                                    <div class="cercle"></div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span class="localisationName">Studi</span>
+                                <span class="localisation"><i class="bi bi-geo-alt-fill"></i> FRANCE</span>
+                            </div>
+                            <ul class="company-tasks">
+                                <li>Réaliser la maquette d'une application web responsive</li>
+                                <li>Créer un site web avec HTML, CSS et le Framework Bootstrap</li>
+                                <li>Installer Git</li>
+                                <li>S'initier à la programmation avec JavaScript</li>
+                                <li>Développer une application avec React.js</li>
+                                <li>Créer un site web avec le CMS Wordpress</li>
+                                <li>Créer et administrer une base de données</li>
+                                <li>Développer des sites web dynamiques avec PHP</li>
+                                <li>Créer une application web avec le framework Symfony</li>
+                                <li>Développer une application mobile avec React Native</li>
+                                <li>Créer un plugin Wordpress</li>
+                                <li>Programmer en Swift</li>
+                                <li>Utiliser SwiftUI</li>
+                                <li>Construire une application robuste et évolutive</li>
+                                <li>Comprendre UIKit</li>
+                                <li>Accéder aux fonctionnalités système</li>
+                            </ul>
+                        </div>
+                        <div class="boxcv">
+                            <div class="d-flex justify-content-between">
+                                <span>BTS Services Informatiques aux Organisations (SISR)</span>
+                                <div class="d-flex justify-content-end">
+                                    <span class="inprogress">En cours depuis Sept. 2020</span>
+                                    <div class="cercle"></div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span class="localisationName">CFA Robert Schuman</span>
+                                <span class="localisation"><i class="bi bi-geo-alt-fill"></i> Metz, FRANCE</span>
+                            </div>
+                            <ul class="company-tasks">
+                                <li>Gérer le patrimoine informatique</li>
+                                <li>Répondre aux incidents et aux demandes d'assistance et d'évolution</li>
+                                <li>Développer la présence en ligne de l'organisation</li>
+                                <li>Travailler en mode projet</li>
+                                <li>Mettre à disposition des utilisateurs un service informatique</li>
+                                <li>Organiser son développement professionnel</li>
+                                <li>Concevoir une solution d'infrastructure réseau</li>
+                                <li>Installer, tester et déployer une solution d'infrastructure réseau</li>
+                                <li>Exploiter, dépanner et superviser une solution d'infrastructure réseau</li>
+                                <li>Protéger les données à caractère personnel</li>
+                                <li>Préserver l'identité numérique de l'organisation</li>
+                                <li>Sécuriser les équipements et les usages des utilisateurs</li>
+                                <li>Garantir la disponibilité, l'intégrité et la confidentialité des services informatiques et des données de l'organisation face à des cyberattaques</li>
+                                <li>Assurer la cybersécurité d'une infrastructure réseau, d'un système, d'un service</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="mt-5">
+                        <h2 class="title">Expériences</h2>
+                        <div class="boxcv">
+                            <div class="d-flex justify-content-between">
+                                <span>Orange</span>
+                                <div class="d-flex justify-content-end">
+                                    <span class="inprogress">En cours depuis le 08 Aout 2020</span>
+                                    <div class="cercle"></div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span class="localisationName">Conseiller Client à l'Unité d'Assistance Technique</span>
+                                <span class="localisation"><i class="bi bi-geo-alt-fill"></i> Metz, FRANCE</span>
+                            </div>
+                            <ul class="company-tasks">
+                                <li>Prise d’appels (Call Center) de clients professionnels en cellule spécialisée dans le cadre du BTS SIO option SISR en Alternance</li>
+                                <li>Assistance téléphonique et soutien aux personnes en difficultés avec les box et la téléphonie Orange</li>
+                            </ul>
+                        </div>
+                        <div class="boxcv">
+                            <div class="d-flex justify-content-between">
+                                <span>École Nationale Supérieure d'Arts et Métiers</span>
+                                <span>04/11/19 au 29/11/19</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span class="localisationName">Stagiaire au service informatique</span>
+                                <span class="localisation"><i class="bi bi-geo-alt-fill"></i> Metz, FRANCE</span>
+                            </div>
+                            <ul class="company-tasks">
+                                <li>Déploiements d’images par réseau</li>
+                                <li>Installation et réparation d’ordinateurs HP All-In-One</li>
+                                <li>Retrait du mode lecture seule des clés usb HP</li>
+                            </ul>
+                        </div>
+                        <div class="boxcv">
+                            <div class="d-flex justify-content-between">
+                                <span>Ensemble Scolaire Jean XXIII</span>
+                                <span>07/01/19 au 01/02/19 - 23/04/19 au 17/05/19</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span class="localisationName">Stagiaire au service informatique</span>
+                                <span class="localisation"><i class="bi bi-geo-alt-fill"></i> Montigny-Lès-Metz, FRANCE</span>
+                            </div>
+                            <ul class="company-tasks">
+                                <li>Configuration de tablettes iPad pour les élèves</li>
+                                <li>Aménagement d’une nouvelle salle informatique (câblage, configuration réseau et Active Directory)</li>
+                                <li>Installation et réparation d’ordinateurs HP All-In-One</li>
+                            </ul>
+                        </div>
+                        <div class="boxcv">
+                            <div class="d-flex justify-content-between">
+                                <span>Arcelor Mittal</span>
+                                <span>30/01/17 au 17/02/17 - 04/12/17 au 22/12/17 - 14/06/18 au 22/06/18</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span class="localisationName">Stagiaire au service informatique, AIM Télécom, Réseau</span>
+                                <span class="localisation"><i class="bi bi-geo-alt-fill"></i> Florange, FRANCE</span>
+                            </div>
+                            <ul class="company-tasks">
+                                <li>Installation d’ordinateurs et imprimantes et mise en place dans le domaine Active Directory</li>
+                                <li>Installation de logiciels sur les différents postes en fonction des besoins des employés via Active Directory</li>
+                                <li>Installation et configuration de plusieurs téléphone IP</li>
+                                <li>Suppression de lignes fixes analogiques pour un passage en IP</li>
+                                <li>Mise en place, configuration et dépannage d’un serveur (Linux)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="mt-5">
+                        <h2 class="title">Compétences</h2>
+                        <div class="row">
+                            <div class="col boxcv d-flex justify-content-center">
+                                <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" alt="HTML5">
+                            </div>
+                            <div class="col boxcv d-flex justify-content-center">
+                                <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg" alt="CSS3">
+                            </div>
+                            <div class="col boxcv d-flex justify-content-center">
+                                <img src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg" alt="JavaScript">
+                            </div>
+                            <div class="col boxcv d-flex justify-content-center">
+                                <img src="https://www.vectorlogo.zone/logos/php/php-ar21.svg" alt="PHP">
+                            </div>
+                            <div class="col boxcv d-flex justify-content-center">
+                                <img src="https://www.vectorlogo.zone/logos/swift/swift-ar21.svg" alt="Swift">
+                            </div>
+                            <div class="col boxcv d-flex justify-content-center">
+                                <img src="https://www.vectorlogo.zone/logos/symfony/symfony-ar21.svg" alt="Symfony">
+                            </div>
+                            <div class="col boxcv d-flex justify-content-center">
+                                <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg" alt="React">
+                            </div>
+                            <div class="col boxcv d-flex justify-content-center">
+                                <img src="https://s.w.org/style/images/about/WordPress-logotype-alternative.png" width="128px" alt="Wordpress">
+                            </div>
+                            <div class="col boxcv d-flex justify-content-center">
+                                <img src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-ar21.svg" alt="Bootstrap">
+                            </div>
+                            <div class="col boxcv d-flex justify-content-center">
+                                <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-ar21.svg" alt="TailwindCSS">
+                            </div>
+                            <div class="col boxcv d-flex justify-content-center">
+                                <img src="https://www.vectorlogo.zone/logos/mysql/mysql-ar21.svg" width="128px" alt="MySQL">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-5">
+                        <h2 class="title">Outils</h2>
+                        <div class="row">
+                            <div class="col boxcv d-flex justify-content-center">
+                                <img src="https://code.visualstudio.com/assets/images/code-stable-white.png" width="64px" alt="Visual Studio Code">
+                            </div>
+                            <div class="col boxcv d-flex justify-content-center">
+                                <img src="https://cdn.worldvectorlogo.com/logos/webstorm-2.svg" width="128px" alt="Webstorm">
+                            </div>
+                            <div class="col boxcv d-flex justify-content-center">
+                                <img src="https://cdn.worldvectorlogo.com/logos/phpstorm.svg" width="128px" alt="Phpstorm">
+                            </div>
+                            <div class="col boxcv d-flex justify-content-center">
+                                <img src="https://www.vectorlogo.zone/logos/apple_xcode/apple_xcode-ar21.svg" width="128px" alt="Xcode">
+                            </div>
+                            <div class="col boxcv d-flex justify-content-center">
+                                <img src="https://www.vectorlogo.zone/logos/github/github-ar21.svg" width="128px" alt="Github">
+                            </div>
+                            <div class="col boxcv d-flex justify-content-center">
+                                <img src="https://www.vectorlogo.zone/logos/gitkraken/gitkraken-ar21.svg" width="128px" alt="GitKraken">
+                            </div>
+                            <div class="col boxcv d-flex justify-content-center">
+                                <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd-2.svg" width="64px" alt="AdobeXd">
+                            </div>
+                            <div class="col boxcv d-flex justify-content-center">
+                                <img src="https://cdn.worldvectorlogo.com/logos/slack-2.svg" width="128px" alt="Slack">
+                            </div>
+                            <div class="col boxcv d-flex justify-content-center">
+                                <img src="https://cdn.worldvectorlogo.com/logos/slack-2.svg" width="128px" alt="Slack">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row footer">
+                <div class="d-flex justify-content-center">
+                    <div class="col-2">
+                        <ul class="list-unstyled text-center">
+                            <li><i class="bi bi-geo-alt-fill"></i> HAGONDANGE</li>
+                            <li><a class="link-footer" href="mailto:contact@kevin-combar.fr">contact@kevin-combar.fr</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 text-center copyright">
+                        SIREN: 911 337 228<br>
+                        © Copyright 2022, Kévin Combar
+                    </div>
+                    <div class="col-2">
+                        <ul class="list-unstyled text-center">
+                            <li><a class="link-footer" href="./legal">Mentions légales</a></li>
+                            <li><a class="link-footer" href="https://www.linkedin.com/in/kevin-combar/"><i class="bi bi-linkedin"></i></a> <a class="link-footer" href="https://twitter.com/kevincombar"><i class="bi bi-twitter"></i></a> <a class="link-footer" href="https://www.instagram.com/kevincombar/"><i class="bi bi-instagram"></i></a> <a class="link-footer" href="https://github.com/kevincombar"><i class="bi bi-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Bootstrap CDN JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
