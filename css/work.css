@@ -1,0 +1,36 @@
+body {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='42' height='44' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z' fill='%234276a7' fill-opacity='.08' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+@media (min-width: 992px) {
+    .sidebar {
+        background: linear-gradient(45deg, var(--color-B7), var(--color-B8), var(--color-B9));
+        min-height: 600px;
+        max-width: 280px;
+        box-shadow: rgb(0 0 0 / 10%) 2px 0px 10px 0px;
+    }
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 26px;
+    padding: 20px;
+    border: 0px;
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    color: var(--color-Blk);
+    background: var(--color-GW);
+}
+
+p {
+    line-height: 10px;
+    color: var(--color-GF);
+}
+
+.work-description {
+    padding-top: 25px;
+}

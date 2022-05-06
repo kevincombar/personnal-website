@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(45deg,var(--color-B3),var(--color-B4),var(--color-B5));
+}
+
+.row-about {
+    height: auto;
+    margin: 30px;
+}
+
+.box-about {
+    background: var(--color-GW);
+    border-radius: 5px;
+    box-shadow: 0 0 9px 1px rgb(0 0 0 / 20%);
+    min-width: auto;
+    max-width: 850px;
+    margin-top: 30px;
+    padding: 20px;
+    height: auto;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 1000;
+    padding: 0px;
+    color: var(--color-GF);
+}
+
+p {
+    color: var(--color-GF);
+}

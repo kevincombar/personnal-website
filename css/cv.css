@@ -1,0 +1,102 @@
+@media (min-width: 992px) {
+    .sidebar {
+        background: linear-gradient(45deg, var(--color-B7), var(--color-B8), var(--color-B9));
+        min-height: 600px;
+        max-width: 300px;
+        box-shadow: rgb(0 0 0 / 10%) 2px 0px 10px 0px;
+    }
+}
+
+.photocv {
+    border-radius: 50%;
+    border-style: solid;
+}
+
+h1 {
+    font-size: 20px;
+    border: none;
+    padding: 0%;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: none;
+} 
+
+.title {
+    color: var(--color-GF);
+}
+
+.cvtitle {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-W);
+    padding-left: 10px;
+}
+
+.reseauxdiv {
+    padding-left: 15px;
+}
+
+.boxcv {
+    margin: 15px; 
+    padding: 20px;
+    box-shadow: 0 0 2px 1px var(--color-Blk2);
+    background: linear-gradient(45deg,var(--color-B6),var(--color-B4));
+    border-radius: 5px;
+}
+
+p {
+    padding-bottom: 0%;
+}
+
+.localisation {
+    font-size: 10px;
+    color: var(--color-G2);
+}
+
+.localisationName {
+    font-size: 10px;
+    color: var(--color-G2);
+}
+
+.cercle {
+    width: 16px;
+    height: 16px;
+    border-radius: 20px;
+    background: rgb(96, 237, 96);
+}
+
+.inprogress {
+    color: rgb(96, 237, 96);
+    padding-right: 10px;
+}
+
+.company-tasks {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-size: 13px;
+    list-style: none;
+}
+
+.company-tasks > li::before {
+    content: "→ ";
+}
+
+.boxcompetence {
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px var(--color-Blk2);
+    border: 1px solid var(--color-Blk2);
+    margin: 15px;
+}
+
+.compName {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,41 @@
+.devSubTitle {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 22px;
+    color: var(--color-Blk);
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    .textRotate {
+        position: absolute;
+        top: 450px;
+        left: 60px;
+        transform: rotate(-15deg);
+    }
+
+    .arrowicon {
+        position: absolute;
+        top: 470px;
+        left: 280px;
+        transform: rotate(-170deg);
+    }
+}
+
+.form-check-label {
+    position: relative;
+    top: -23px;
+    left: 23px;
+}
+
+#link-rdv {
+    text-decoration: none;
+    color: var(--color-W);
+}
+
+#link-rdv:hover {
+    text-decoration: none;
+    color: var(--color-B4);
+}
